@@ -4,9 +4,11 @@
     background-color: #2e2759;
     color: white;
     padding: 20px;
-    height: 270px;
-    margin-left: -35px;
+    margin-left: -40px;
+
 }
+
+
 
 .header-content {
     display: flex;
@@ -122,48 +124,36 @@ h2 {
     color: #008080;
 }
 
-.body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+
+.languages span {
+    margin-right: 80px;
 }
 
-.languages {
-    display: flex;
-}
-
-.languageleft {
-    flex: 1;
-}
-
-.languageright {
-    flex: 1;
-}
-
-.native {
-    color: #008080;
-}
-
-.proficiency {
-    display: flex;
+.proficiency span {
+    margin-right: 80px;
 }
 
 .proficiency li {
-
+    display: inline-block;
     font-style: italic;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 85px;
     color: #008080;
 }
 
 .languages li {
     display: inline-block;
+    text-align: justify;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 85px;
 }
 
 .biglang {
     display: block;
+}
+
+.native {
+    color: #008080;
 }
 
 .name {
@@ -173,6 +163,12 @@ h2 {
 .education p {
     align-items: flex-start;
     margin-left: 20px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
