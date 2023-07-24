@@ -4,12 +4,14 @@
     background-color: #2e2759;
     color: white;
     padding: 20px;
+    height: 270px;
+    margin-left: 0;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header h1 {
@@ -23,8 +25,13 @@
     border: 2px solid #ccc;
 }
 
+.header-image {
+    margin-right: 30px;
+    /* Adjust the margin to move the image to the left */
+}
+
 .contact-container {
-    margin-top: 20px;
+    margin-top: 50px;
     background-color: #98fb98;
     padding: 10px;
     display: flex;
@@ -35,6 +42,9 @@
     background-color: #121023;
     color: white;
     width: 100%;
+    margin-right: 30px;
+    align-items: flex-start;
+    margin-left: 0;
 }
 
 .contact {
@@ -125,4 +135,8 @@ h2 {
 
 .native {
     color: #008080;
+}
+
+.name {
+    margin-left: 10px;
 }
