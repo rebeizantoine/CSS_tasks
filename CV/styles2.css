@@ -23,6 +23,7 @@
     max-height: 200px;
     border-radius: 50%;
     border: 2px solid #ccc;
+    object-fit: cover;
 }
 
 .header-image {
@@ -67,11 +68,16 @@
     padding: 10px;
     text-align: justify;
     height: 20px;
+    align-items: flex-start;
 
 }
 
+.contact-container123 {
+    display: none;
+}
+
 .SKILLS {
-    margin-left: 10px;
+    margin-left: 0 px;
 }
 
 .container1 {
@@ -83,6 +89,7 @@
 .LEFT,
 .RIGHT {
     flex: 1;
+    align-items: flex-start;
 
 
 
@@ -139,4 +146,33 @@ h2 {
 
 .name {
     margin-left: 10px;
+}
+
+.education p {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .header {
+        display: block;
+
+    }
+
+    .contact-container {
+        display: none;
+    }
+
+    .container1 {
+        display: block;
+    }
+
+    .contact-container123 {
+        display: block;
+    }
 }
